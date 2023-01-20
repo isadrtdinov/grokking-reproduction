@@ -35,7 +35,7 @@ This will create a directory `code/toy_model/experiments/` saving all necessary 
 
 ## Running MNIST experiments
 
-Code for MNIST experiments is stored in `code/mnist` folder. `mnist_run.py` file is intended for launching training on MNIST for multiple weight decays and learning rates. `original_setup.py` in a launching file that contains all hyperparameters for setup proposed by authors, while `extended_setup.py` stores hyperparameters for our larger setup. The notebook `mnist_plotting.ipynb` contains the code for visualization of results from this work. To launch the experiments, follow this list of commands in shell:
+Code for MNIST experiments is stored in `code/mnist` folder. `mnist_run.py` file is intended for launching training on MNIST for multiple weight decays and learning rates. `original_setup.py` is a launching file that contains all hyperparameters for setup proposed by authors, while `extended_setup.py` stores hyperparameters for our larger setup. The notebook `mnist_plotting.ipynb` contains the code for visualization of results from this work. To launch the experiments, follow this list of commands in shell:
 
 ```shell
 cd code/mnist
