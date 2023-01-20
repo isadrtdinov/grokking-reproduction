@@ -31,7 +31,7 @@ cd code/toy_model
 python toy_model_script.py
 ```
 
-This will create a directory `code/toy_model/experiments` saving all necessary data for reproducing the figures from the report. 
+This will create a directory `code/toy_model/experiments/` saving all necessary data for reproducing the figures from the report. 
 
 ## Running MNIST experiments
 
