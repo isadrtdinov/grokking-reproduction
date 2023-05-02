@@ -9,17 +9,17 @@
 
 ## Python environment
 
-The code from this repo required the following list of libraries:
+The code from this repo required the following list of libraries. We ran the experiments with the mentioned versions; however, most of these libraries have good compatibility and it is possible to reproduce our results with different versions.  
 ```requirements
-torch
-torchvision
-numpy
-pandas
-sklearn
-joblib
-tqdm
-matplotlib
-seaborn
+torch==1.13.0
+torchvision==0.14.0
+numpy==1.23.1
+pandas==1.4.3
+sklearn==1.0.2
+joblib==1.1.0
+tqdm==4.64.0
+matplotlib==3.5.3
+seaborn==0.11.2
 ```
 
 ## Running toy model experiments
